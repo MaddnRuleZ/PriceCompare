@@ -1,0 +1,9 @@
+<div class="search-results-wrapper">
+  <div class="search-results-container">
+    <div class="search-results-panel" *ngFor="let result of searchResults" (click)="navigateToCompare(result.itemcategory)">
+      <h3>Name: {{ result.itemcategory }}</h3>
+      <p>Price: ${{ result.price }}</p>
+      <p>Description: {{ result.description }}</p>
+    </div>
+  </div>
+</div>

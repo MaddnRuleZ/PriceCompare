@@ -1,0 +1,17 @@
+<div class="search-container">
+    <input type="text" placeholder="Search..." class="search-bar">
+    <button type="button" class="search-button">Search</button>
+  </div>
+  
+  <div class="horizontal-bar">
+    <div class="rectangle" (click)="navigateToSearch()">
+        <p>Baby</p>
+      </div>
+    <div class="rectangle" onclick="navigateToSearch('page2')">
+      <p>Text 2</p>
+    </div>
+    <div class="rectangle" onclick="navigateToSearch('page3')">
+      <p>Text 3</p>
+    </div>
+  </div>
+  

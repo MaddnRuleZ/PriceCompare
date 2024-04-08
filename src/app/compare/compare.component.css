@@ -1,0 +1,17 @@
+.compare-container {
+    width: 80%;
+    margin: 0 auto; /* Center the container horizontally */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center items horizontally */
+  }
+  
+  .item-list {
+    width: 100%; /* Adjust width as needed */
+  }
+  
+  .item {
+    background-color: lightblue;
+    margin-bottom: 10px;
+    padding: 10px; /* Adding padding for better spacing */
+  }
+  

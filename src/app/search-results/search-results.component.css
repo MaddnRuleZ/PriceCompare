@@ -1,0 +1,25 @@
+.search-results-wrapper {
+    max-width: 70%; /* Limiting the width to 70% of the screen width */
+    margin: 0 auto; /* Centering the wrapper horizontally */
+  }
+  
+  .search-results-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .search-results-panel {
+    width: calc(33.33% - 10px); /* Adjust as needed */
+    margin-bottom: 20px; /* Adjust spacing between panels */
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    border-radius: 5px; /* Rounded corners */
+    padding: 20px; /* Padding inside the panel */
+    box-sizing: border-box;
+  }
+  
+  .search-results-panel h3 {
+    margin-top: 0; /* Remove default margin */
+  }
+  
