@@ -1,0 +1,103 @@
+.container {
+    background-color: #131516;
+    color: #fff; /* Light text color */
+    min-height: 100vh; /* Ensure the container covers the entire viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Dark Mode for .signup-container */
+.signup-container {
+    width: 400px;
+    height: 480px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #333; /* Dark border color */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Darken the box shadow */
+    background-color: #222; /* Dark background color */
+    color: #fff; /* Light text color */
+}
+
+/* Dark Mode for .form-group */
+.form-group {
+    margin-bottom: 10px;
+}
+
+/* Dark Mode for label */
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    height: 25px;
+    padding: 10px, -20px;
+    border: 1px solid #333; /* Dark border color */
+    border-radius: 5px;
+    background-color: #444; /* Dark background color */
+    color: #fff; /* Light text color */
+}
+
+/* Dark Mode for button */
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Primary button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Dark Mode for "Login" button */
+button[type="submit"] {
+    background-color: #28a745; /* Green color */
+}
+
+button[type="submit"]:hover {
+    background-color: #218838; /* Darker green color on hover */
+}
+
+.login-button {
+    width: 20%;
+    margin-top: 20px;
+    padding: 5px 10px;
+    background-color: #007bff; /* Primary button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.login-button:hover {
+    background-color: #0056b3;
+}
+
+.warning {
+    color: green;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.success {
+    margin-top: 2em;
+}
+
+.success-2x {
+    margin-top: 4em;
+}
+
+.disabled-button {
+    background-color: #ccc; /* Change to your desired lighter color */
+  }

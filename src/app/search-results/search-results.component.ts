@@ -38,7 +38,7 @@ export class SearchResultsComponent implements OnInit {
       });
     }
 
-  navigateToCompare(itemCategory: string): void {
+  navigateToCompare(itemCategory: number): void {
     this.router.navigate(['/compare', this.searchText, itemCategory]);
   }
 }

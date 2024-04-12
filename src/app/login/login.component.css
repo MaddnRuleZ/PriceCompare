@@ -1,0 +1,90 @@
+/* Dark mode for login container */
+/* Dark mode for the container */
+.container {
+    background-color: #131516;
+    color: #fff; /* Light text color */
+    min-height: 100vh; /* Ensure the container covers the entire viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Dark mode for login container */
+.login-container {
+    width: 400px; /* Fixed width */
+    height: 300px;
+    max-width: 100%; /* Ensure it doesn't exceed the viewport width */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #444; /* Darker border color */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Darker box shadow */
+    position: relative;
+    background-color: #222; /* Dark background color */
+}
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px 0px; /* Add padding to the right */
+    border: 1px solid #444; /* Darker border color */
+    border-radius: 5px;
+    background-color: #444; /* Darker input background color */
+    color: #fff; /* Light text color */
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.sign-up-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.sign-up-button:hover {
+    background-color: #0056b3;
+}
+
+.warning {
+    color: green;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.success {
+    margin-top: 2em;
+}
+
+.custom-snackbar {
+    background-color: #ff0000; /* Change the background color to red */
+    color: #ffffff; /* Change the text color to white */
+    font-size: 16px; /* Adjust the font size */
+  }
+  

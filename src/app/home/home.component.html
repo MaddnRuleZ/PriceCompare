@@ -1,17 +1,19 @@
-<div class="search-container">
-    <input type="text" placeholder="Search..." class="search-bar">
-    <button type="button" class="search-button">Search</button>
+<div class="header">
+  <div class="login-container">
+    <button type="button" class="login-button" (click)="login()">Login</button>
   </div>
-  
-  <div class="horizontal-bar">
-    <div class="rectangle" (click)="navigateToSearch()">
-        <p>Baby</p>
-      </div>
-    <div class="rectangle" onclick="navigateToSearch('page2')">
-      <p>Text 2</p>
-    </div>
-    <div class="rectangle" onclick="navigateToSearch('page3')">
-      <p>Text 3</p>
-    </div>
+  <div class="login-container">
+    <button *ngIf="identifier !== 0" type="button" class="add-entry-button" (click)="addEntry()">Add Entry</button>
   </div>
-  
+</div>
+<div class="horizontal-bar">
+  <div class="rectangle" (click)="navigateToSearch()">
+      <p>Baby</p>
+    </div>
+  <div class="rectangle" onclick="navigateToSearch('page2')">
+    <p>Text 2</p>
+  </div>
+  <div class="rectangle" onclick="navigateToSearch('page3')">
+    <p>Text 3</p>
+  </div>
+</div>

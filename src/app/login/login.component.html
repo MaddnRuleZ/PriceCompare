@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Anmeldung, um auf Ihr Konto auf der Website zuzugreifen. Geben Sie Ihren Benutzernamen und Ihr Passwort ein, um sich anzumelden.">
+    <title>Anmeldung auf der Website</title>
+</head>
+<body>
+    <div class="container">
+        <div class="login-container">
+            <h2>Login</h2>
+            <label for="username">Email</label>
+            <input type="text" id="username" name="username" [(ngModel)]="email">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" [(ngModel)]="password">
+            <button type="button" (click)="submitLogin()">Submit</button>
+            <button type="button" (click)="registerUser()">Register</button>
+        </div>
+    </div>
+</body>
+
